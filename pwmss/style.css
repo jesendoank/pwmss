@@ -1,0 +1,14 @@
+.body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        .cona {
+            max-width: 800px;
+            margin: 50px auto; /* tengah + jarak atas */
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }

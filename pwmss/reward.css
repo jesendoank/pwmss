@@ -1,0 +1,50 @@
+.body {
+  min-height: 2000px;
+  background-color: #ffffff;
+}
+.jumbotron {
+  padding-top: 10rem;
+  background-color: #a2d9ff;
+}
+.section {
+  padding-top: 5rem;
+}
+.tombol {
+  text-transform: uppercase;
+  border-radius: 40px;
+}
+
+/* Desktop */
+@media (min-width: 992px) {
+  .nav-link {
+    text-transform: uppercase;
+    margin-right: 10px;
+  }
+
+  .nav-link:hover::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #ffffff;
+    width: 40%;
+    margin: auto;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
+  /* artikel*/
+  .btn {
+    background: rgb(110, 34, 231);
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .btn1 {
+    background: rgb(29, 1, 107);
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+}
